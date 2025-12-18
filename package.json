@@ -1,0 +1,26 @@
+{
+  "name": "gogiftfinder-v3",
+  "version": "3.0.0",
+  "description": "AI-powered gift recommendations for Russian marketplaces",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate:dzen": "node scripts/content-generation/generate-dzen.js",
+    "generate:vk": "node scripts/content-generation/generate-vk.js"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "openai": "^4.24.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0"
+  }
+}
